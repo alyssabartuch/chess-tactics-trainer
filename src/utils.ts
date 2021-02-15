@@ -1,7 +1,7 @@
 import { ChessInstance, ShortMove } from "chess.js";
 const Chess = require("chess.js");
 
-export function GetSideToPlayFromFen(fen: string) {
+export function getSideToPlayFromFen(fen: string) {
   const chess: ChessInstance = new Chess(fen);
   return chess.turn();
 }

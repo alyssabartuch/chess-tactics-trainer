@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.hint-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tactic-hint {
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  font-size: 1.12em;
+  font-weight: bold;
+}
+
+.tactic-hint-success {
+  border: 5px solid mediumseagreen;
+  color: mediumseagreen;
+}
+
+.tactic-hint-error {
+  border: 5px solid crimson;
+  color: crimson;
+}
+
+.tactic-hint-solved {
+  border: 5px solid goldenrod;
+  color: goldenrod;
+}
